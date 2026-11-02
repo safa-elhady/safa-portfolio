@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Safa Mahmoud — Computer Science Student Portfolio">
+  <title>Safa Mahmoud | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Safa Mahmoud home"><span class="logo-mark">S</span><span>Safa<span
+            class="logo-dot">.</span></span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <ul class="nav-links">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">My Toolkit</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" type="button" aria-label="Toggle color theme">
+        <i class="fa-regular fa-moon"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE STUDENT</p>
+          <h1>Turning ideas into<br><span>digital experiences.</span></h1>
+          <p class="hero-description">Hi, I'm <strong>Safa Mahmoud</strong>. I'm a Computer Science student interested
+            in web development, technology, and building useful digital experiences.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <a class="button button-quiet" href="#contact">Contact me <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <div class="hero-meta">
+            <span><i class="fa-solid fa-code"></i> HTML · CSS · JavaScript</span>
+            <span><i class="fa-solid fa-location-dot"></i> Egypt</span>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="images/coding-avatar.png" alt="coding illustration">
+        </div>
+        <a class="scroll-cue" href="#about"><span></span> SCROLL TO DISCOVER</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">A LITTLE INTRODUCTION</p>
+          <h2>About <span>me</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-illustration">
+            <div class="about-monogram">S<span>.</span></div>
+            <div class="about-illustration-caption">Curious mind. Creative approach.</div>
+          </div>
+          <div class="about-copy">
+            <h3>Learning, creating, and growing through technology.</h3>
+            <p>I'm a Computer Science student interested in front-end development and exploring how technology can be
+              used to solve problems.</p>
+            <p>I'm currently building my skills through university coursework, practical training, and personal learning
+              projects.</p>
+            <div class="about-note"><i class="fa-regular fa-lightbulb"></i><span>Always learning something new and
+                improving one step at a time.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">TOOLS I WORK WITH</p>
+          <h2>My <span>toolkit</span></h2>
+          <p class="section-subtitle">Select any card to learn what the technology or tool is used for.</p>
+        </div>
+        <div class="skills-grid" id="skillsContainer">
+          <button class="skill-card" type="button" data-skill="html"><i
+              class="fa-brands fa-html5"></i><span>HTML5</span><small>Click to learn more</small></button>
+          <button class="skill-card" type="button" data-skill="css"><i
+              class="fa-brands fa-css3-alt"></i><span>CSS3</span><small>Click to learn more</small></button>
+          <button class="skill-card" type="button" data-skill="javascript"><i
+              class="fa-brands fa-js"></i><span>JavaScript</span><small>Click to learn more</small></button>
+          <button class="skill-card" type="button" data-skill="bootstrap"><i
+              class="fa-brands fa-bootstrap"></i><span>Bootstrap</span><small>Click to learn more</small></button>
+          <button class="skill-card" type="button" data-skill="git"><i
+              class="fa-brands fa-git-alt"></i><span>Git</span><small>Click to learn more</small></button>
+          <button class="skill-card" type="button" data-skill="github"><i
+              class="fa-brands fa-github"></i><span>GitHub</span><small>Click to learn more</small></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Featured <span>projects</span></h2>
+          <p class="section-subtitle">Selected projects from my learning and training experience.</p>
+        </div>
+        <div class="projects-grid">
+          <button class="project-card" type="button" data-project="ml">
+            <span class="project-icon"><i class="fa-solid fa-brain"></i></span>
+            <span class="project-content">
+              <span class="project-type">COLLEGE TRAINING · AI / DATA ANALYSIS</span>
+              <span class="project-title">Machine Learning Model Comparison</span>
+              <span class="project-preview">A training project focused on dataset analysis and comparing machine
+                learning models.</span>
+              <span class="project-tags"><span>Data Analysis</span><span>Machine Learning</span></span>
+              <span class="project-click"><i class="fa-solid fa-arrow-up-right-from-square"></i> Click to learn
+                more</span>
+            </span>
+          </button>
+
+          <button class="project-card" type="button" data-project="dotnet">
+            <span class="project-icon"><i class="fa-solid fa-laptop-code"></i></span>
+            <span class="project-content">
+              <span class="project-type">WEB DEVELOPMENT · .NET PRACTICE</span>
+              <span class="project-title">ASP.NET Core MVC Web Project</span>
+              <span class="project-preview">A practice project exploring the MVC architecture, controllers, actions, and
+                action results.</span>
+              <span class="project-tags"><span>C#</span><span>ASP.NET Core MVC</span></span>
+              <span class="project-click"><i class="fa-solid fa-arrow-up-right-from-square"></i> Click to learn
+                more</span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Get in <span>touch</span></h2>
+          <p class="section-subtitle">Have a question or want to connect? Leave a message below.</p>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <label for="contactName">Your name</label>
+            <input id="contactName" name="name" type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="form-row">
+            <label for="contactEmail">Your email</label>
+            <input id="contactEmail" name="email" type="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-row">
+            <label for="contactMessage">Your message</label>
+            <textarea id="contactMessage" name="message" rows="5" placeholder="Write your message..."
+              required></textarea>
+          </div>
+          <button class="button button-primary" type="submit">Send message <i
+              class="fa-regular fa-paper-plane"></i></button>
+          <p class="form-notice" id="formNotice" role="status">This is a front-end demo form. It does not send or store
+            messages yet.</p>
+
+             <div class="social-links">
+    <a href="https://linkedin.com/in/your-username" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://github.com/your-username" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+    </a>
+    <a href="mailto:your.email@example.com" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+    </a>
+</div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="logo footer-logo" href="#home"><span class="logo-mark">S</span><span>Safa<span
+            class="logo-dot">.</span></span></a>
+      <p>Designed & built by Safa Mahmoud · <span id="year"></span></p>
+      <a class="back-top" href="#home" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+  </footer>
+
+  <div class="modal-backdrop" id="skillModal" aria-hidden="true">
+    <section class="skill-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" aria-label="Close details"><i class="fa-solid fa-xmark"></i></button>
+      <div class="modal-icon" id="modalIcon"></div>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDescription"></p>
+      <div class="modal-usage"><strong id="modalUsageTitle">What is it used for?</strong>
+        <p id="modalUsage"></p>
+      </div>
+      <div class="modal-project-tags" id="modalProjectTags"></div>
+      
+    </section>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
